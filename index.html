@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfólio de Eduardo Aguiar — Desenvolvedor em formação em Análise e Desenvolvimento de Sistemas. Projetos em HTML, CSS, JavaScript, Python e SQL.">
+  <meta name="theme-color" content="#090d18">
+  <title>Eduardo Aguiar | Desenvolvedor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <div class="background-grid" aria-hidden="true"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="brand" href="#inicio" aria-label="Eduardo Aguiar, início"><span
+          class="brand-mark">EA</span><span>Eduardo Aguiar<span class="accent"></span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false"
+        aria-controls="navLinks"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#sobre">Sobre</a><a href="#habilidades">Habilidades</a><a href="#projetos">Projetos</a><a
+          href="#formacao">Formação</a>
+
+        <a class="nav-contact"
+          href="https://wa.me/5511984134682?text=Oi%2C%20Encontrei%20o%20seu%20perfil%20no%20seu%20portf%C3%B3lio."
+          target="_blank" rel="noopener noreferrer">
+          Contato Whatsapp <span aria-hidden="true"></span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="inicio">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> DISPONÍVEL PARA OPORTUNIDADES DE TRABALHO</p>
+        <h1>Olá, eu sou<br><span class="gradient-text">Eduardo Aguiar</span></h1>
+        <span>42 Anos | Pardo | Conj Hab. José Bonifácio | Zona Leste |São Paulo SP </span>
+
+        <p class="hero-description">Transformo ideias em soluções digitais. Tenho experiência com atendimento ao
+          cliente, suporte técnico e desenvolvimento de projetos utilizando tecnologias web.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projetos">Ver meus projetos <span>↘</span></a>
+          <a class="button button-secondary" href="#contato">Vamos conversar</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/Aguiar-Work" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/aguiarwork/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="mailto:AGUIAR.WORK@GMAIL.COM">E-mail ↗</a>
+          <a href="https://x.com/AguiarWork" target="_blank" rel="noreferrer">Twitter - X ↗</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal" aria-label="Cartão visual de desenvolvedor">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="code-top">
+            <div class="window-dots"><i></i><i></i><i></i></div><span>developer.js</span><span class="code-live">●
+              online</span>
+
+          </div>
+          <div class="profile-intro">
+            <div class="profile-photo-frame">
+              <img src="assets/eduardo-aguiar.jpg" alt="Foto de perfil de Eduardo Aguiar" class="profile-photo">
+            </div>
+            <div class="profile-intro-text">
+              <span class="profile-kicker">PERFIL DO DESENVOLVEDOR</span>
+              <strong>Eduardo Aguiar</strong>
+              <span>Desenvolvedor em formação</span>
+            </div>
+
+          </div>
+          <div class="code-content">
+            <p><span class="code-purple">const</span> <span class="code-blue">developer</span> = {</p>
+            <p class="indent"><span class="code-green">name</span>: <span class="code-yellow">'Eduardo Aguiar'</span>,
+            </p>
+            <p class="indent"><span class="code-green">focus</span>: <span class="code-yellow">'Full Stack em
+                evolução'</span>,</p>
+            <p class="indent"><span class="code-green">skills</span>: [</p>
+            <p class="indent2"><span class="code-yellow">'HTML'</span>, <span class="code-yellow">'CSS'</span>,</p>
+            <p class="indent2"><span class="code-yellow">'JavaScript'</span>, <span class="code-yellow">'Python'</span>,
+            </p>
+            <p class="indent2"><span class="code-yellow">'SQL'</span></p>
+            <p class="indent">],</p>
+            <p class="indent"><span class="code-green">alwaysLearning</span>: <span class="code-purple">true</span></p>
+            <p>};</p>
+            <p class="code-comment">////////////////////// constância gera resultados.</p>
+          </div>
+          <div class="code-footer"><span>⌁ Construindo o próximo passo</span><span>100%</span></div>
+        </div>
+        <div class="floating-chip chip-html"><b>SQL</b><span>Banco de dados</span></div>
+        <div class="floating-chip chip-code"><span class="chip-icon">{ }</span><span>código com propósito</span></div>
+      </div>
+      <a class="scroll-cue" href="#sobre"><span></span> ROLE PARA EXPLORAR</a>
+    </section>
+
+    <section class="section container" id="sobre">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / QUEM SOU</p>
+        <h2>Sobre <span class="gradient-text">mim</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p class="lead">Sou um profissional em transição e evolução na área de tecnologia, com formação em Análise e
+            Desenvolvimento de Sistemas e Eletrotécnica.</p>
+          <p>Minha trajetória profissional reúne mais de 20 anos de experiência com atendimento ao público, vendas e
+            relacionamento com clientes, além de vivência prática em suporte técnico de informática. Essa combinação
+            fortalece minha comunicação, capacidade de resolver problemas e visão das necessidades dos usuários.</p>
+          <p>Atualmente, direciono meus estudos para desenvolvimento de software, tecnologias web e banco de dados.
+            Gosto de aprender na prática, construir projetos e transformar desafios do dia a dia em soluções funcionais.
+          </p>
+          <a class="text-link" href="#formacao">Minhas formações, Cursos e Experiências <span>↘</span></a>
+        </div>
+        <div class="about-stats reveal">
+          <div class="stat-card"><strong>20<span>+</span></strong><span>anos de experiência profissional</span></div>
+          <div class="stat-card"><strong>ADS</strong><span>formação em tecnologia</span></div>
+          <div class="stat-card"><strong>TI</strong><span>suporte técnico e desenvolvimento</span></div>
+          <div class="stat-card"><strong>∞</strong><span>vontade de aprender e evoluir</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="habilidades">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / CAIXA DE FERRAMENTAS</p>
+        <h2>Habilidades & <span class="gradient-text">tecnologias</span></h2>
+        <p class="section-intro">Tecnologias que venho estudando e aplicando em projetos pessoais e atividades práticas.
+        </p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <div class="skill-icon">&lt;/&gt;</div>
+          <h3>Desenvolvimento Web</h3>
+          <p>Estruturação de páginas, estilização e interatividade no navegador.</p>
+          <div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon">Py</div>
+          <h3>Programação</h3>
+          <p>Lógica de programação e desenvolvimento de aplicações em aprendizado contínuo.</p>
+          <div class="tags"><span>Python</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon">DB</div>
+          <h3>Banco de Dados</h3>
+          <p>Fundamentos de banco de dados, consultas e administração.</p>
+          <div class="tags"><span>SQL</span><span>Banco de Dados</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon">IT</div>
+          <h3>Técnico em informática e Suporte</h3>
+          <p>Experiência prática com manutenção, configuração e atendimento técnico.</p>
+          <div class="tags"><span>Software</span><span>Hardware</span><span>Formatação</span><span>Backup</span>
+          </div>
+        </article>
+      </div>
+      <div class="soft-skills reveal"><span>Também levo para cada
+          projeto:</span><b>Comunicação</b><b>Empatia</b><b>Proatividade</b><b>Organização</b><b>Trabalho em
+          equipe</b><b>Resolução de problemas</b></div>
+    </section>
+
+    <section class="section container" id="projetos">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / TRABALHOS SELECIONADOS</p>
+        <h2>Projetos em <span class="gradient-text">destaque</span></h2>
+        <p class="section-intro">Projetos publicados no meu GitHub, desenvolvidos para praticar lógica de programação,
+          desenvolvimento web e resolução de problemas.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-preview preview-entrega">
+            <div class="mock-window">
+              <div class="mock-bar"><i></i><i></i><i></i><span>GTA 6 · Calculadora</span></div>
+              <div class="mock-content">
+                <div class="mock-logo">GTA<span>6</span></div><small>CALCULADORA DE MEDICAMENTOS</small><strong>R$
+                  250,00</strong>
+                <div class="mock-line"></div>
+                <div class="mock-metrics"><span>Itens</span><span>Quantidade</span></div>
+                <div class="mock-button">CALCULAR TOTAL</div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>01 / JAVASCRIPT</span><span class="project-status">PUBLICADO</span></div>
+            <h3>Calculadora GTA 6</h3>
+            <p>Calculadora inspirada no universo GTA RP para organizar valores de medicamentos e calcular o total
+              conforme os preços e quantidades informados. Inclui recursos para atualizar e resetar valores.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>DOM</span></div>
+            <div class="project-links"><a href="https://github.com/Aguiar-Work/GTA_6_Calculadora" target="_blank"
+                rel="noreferrer">Ver repositório no GitHub ↗</a></div>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-preview preview-number">
+            <div class="number-ui"><span>SORTEADOR DA SORTE</span><strong>07 <i>·</i> 14 <i>·</i> 23</strong>
+              <div class="number-balls"><b>07</b><b>14</b><b>23</b><b>31</b></div><small>GERAÇÃO DE NÚMEROS</small>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>02 / DESENVOLVIMENTO WEB</span><span class="project-status">PUBLICADO</span>
+            </div>
+            <h3>Sorteador da Sorte</h3>
+            <p>Projeto web de sorteio de números, com interface própria e lógica para gerar combinações aleatórias.
+              Desenvolvido para praticar estruturação HTML, estilização CSS e interação com JavaScript.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="project-links"><a href="https://github.com/Aguiar-Work/SorteadordaSorte" target="_blank"
+                rel="noreferrer">Ver repositório no GitHub ↗</a></div>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-preview preview-python">
+            <div class="python-ui"><span>PYTHON / CÁLCULOS</span>
+              <pre>salario = float(input())\nmeses = int(input())\n\nvalor = salario * meses / 12\nprint(valor)</pre>
+              <small>CÁLCULO DE DIREITOS TRABALHISTAS</small>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>03 / PYTHON</span><span class="project-status">PUBLICADO</span></div>
+            <h3>Calculadora de 13º e Férias</h3>
+            <p>Programa em Python voltado a cálculos proporcionais de décimo terceiro salário e férias, aplicando
+              operações matemáticas, entrada de dados e lógica de programação.</p>
+            <div class="tags"><span>Python</span><span>Lógica</span><span>Terminal</span></div>
+            <div class="project-links"><a href="https://github.com/Aguiar-Work/calc_decimo_terceiro-1-3_ferias"
+                target="_blank" rel="noreferrer">Ver repositório no GitHub ↗</a></div>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-preview preview-timer">
+            <div class="timer-ui"><span class="timer-label">CALCULADORA DE NOTAS</span><strong>8.5<span> /
+                  10</span></strong>
+              <div class="timer-controls"><i></i><i></i><i></i></div><small>NOTAS · MÉDIA · RESULTADO</small>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>04 / DESENVOLVIMENTO WEB</span><span class="project-status">PUBLICADO</span>
+            </div>
+            <h3>Calculadora de Média de Notas</h3>
+            <p>Aplicação web para inserir notas e calcular a média, praticando formulários, validação de informações e
+              manipulação do DOM com JavaScript.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="project-links"><a href="https://github.com/Aguiar-Work/Calc_media_notas" target="_blank"
+                rel="noreferrer">Ver repositório no GitHub ↗</a></div>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-preview preview-timer">
+            <div class="timer-ui"><span class="timer-label">CRONÔMETRO</span><strong>00:24<span>.58</span></strong>
+              <div class="timer-controls"><i></i><i></i><i></i></div><small>INICIAR · PAUSAR · RESETAR</small>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>05 / INTERFACE WEB</span><span class="project-status">PUBLICADO</span></div>
+            <h3>Cronômetro</h3>
+            <p>Projeto de cronômetro desenvolvido para praticar estilização de interfaces e interação com o usuário,
+              trabalhando conceitos de eventos e controle de tempo.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="project-links"><a href="https://github.com/Aguiar-Work/Cronometro" target="_blank"
+                rel="noreferrer">Ver repositório no GitHub ↗</a></div>
+          </div>
+        </article>
+      </div>
+      <p class="projects-note">Veja o código-fonte de cada projeto no GitHub. As demonstrações online podem ser
+        adicionadas aqui quando estiverem publicadas.</p>
+      <div class="all-projects-link"><a class="button button-secondary"
+          href="https://github.com/Aguiar-Work?tab=repositories" target="_blank" rel="noreferrer">Ver todos os
+          repositórios <span>↗</span></a></div>
+    </section>
+
+    <section class="section container" id="formacao">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 / APRENDIZADO CONTÍNUO</p>
+        <h2>Formações, cursos e <span class="gradient-text">experiências</span></h2>
+      </div>
+      <div class="timeline-grid">
+        <div>
+          <h3 class="timeline-title">Formação acadêmica</h3>
+          <div class="timeline">
+            <article class="timeline-item"><span class="timeline-date">NOVEMBRO 2023</span>
+              <h4>Tecnólogo em Análise e Desenvolvimento de Sistemas</h4>
+              <p>Universidade Cruzeiro do Sul.</p>
+            </article>
+            <article class="timeline-item"><span class="timeline-date">JUNHO 2018</span>
+              <h4>Técnico em Eletrotécnica</h4>
+              <p>Colégio Adélia Camargo Corrêa.</p>
+            </article>
+          </div>
+          <div>
+            <br><br>
+            <h3 class="timeline-title">Experiência profissional</h3>
+            <div class="timeline">
+              <article class="timeline-item"><span class="timeline-date">2019 — 2026</span>
+                <h4>Kalunga — Vendas / Informática</h4>
+                <p>Atendimento ao cliente, vendas consultivas e orientação sobre produtos de informática.</p>
+              </article>
+              <article class="timeline-item"><span class="timeline-date">2009 — 2015</span>
+                <h4>Casas Bahia — Vendedor de Informática</h4>
+                <p>Atendimento, vendas e suporte ao cliente na escolha de produtos.</p>
+              </article>
+              <article class="timeline-item"><span class="timeline-date">2002 — 2009</span>
+                <h4>Matrix Games & Informática — Suporte Técnico</h4>
+                <p>Atendimento técnico, manutenção e suporte em informática.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3 class="timeline-title">Cursos</h3>
+          <div class="timeline">
+            <article class="timeline-item"><span class="timeline-date">Em progresso</span>
+              <h4>Inglês - Pré Advanced</h4>
+              <p>CNA</p>
+            </article>
+            <article class="timeline-item"><span class="timeline-date">Novembro 2026</span>
+              <h4>Cybersegurança: Conhecendo os usos de IA para segurança
+                Alura - 8H Carga horária</h4>
+              <p>Alura - 8h</p>
+            </article>
+            <article class="timeline-item"><span class="timeline-date">Novembro 2026</span>
+              <h4>Python:
+                Inteligência Artificial Aplicada
+              </h4>
+              <p>Alura - 8h</p>
+              SQLite online:
+
+            </article>
+            <article class="timeline-item"><span class="timeline-date">Novembro 2026</span>
+              <h4>SQLite online:
+                Conhecendo instruções SQL
+              </h4>
+              <p>Alura - 8h</p>
+
+
+            </article>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="learning-strip"><span class="learning-icon">✦</span>
+        <div><b>Profissional em transição de carreira com evolução contínua</b>
+          <p>Estudando inglês, programação, banco de dados e novas ferramentas para ampliar minha atuação em tecnologia.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contato">
+      <div class="container contact-inner reveal">
+        <p class="eyebrow">05 / CONTATO</p>
+        <h2>Vamos construir algo<br><span class="gradient-text">interessante juntos?</span></h2>
+        <div class="contact-letter">
+          <p><strong>Prezados(as),</strong></p>
+          <p>Gostaria de expressar meu interesse em fazer parte da equipe da empresa e ter a oportunidade de iniciar
+            minha trajetória profissional na área de tecnologia.</p>
+          <p>Sou formado em Análise e Desenvolvimento de Sistemas e também possuo formação técnica em Eletrotécnica.
+            Busco uma oportunidade para colocar em prática os conhecimentos que adquiri, desenvolver novas habilidades e
+            crescer profissionalmente na área de TI.</p>
+          <p>Ao longo da minha trajetória, adquiri experiência com atendimento ao público, vendas, suporte técnico em
+            informática e resolução de problemas, habilidades que contribuíram para o desenvolvimento da minha
+            comunicação, responsabilidade e capacidade de lidar com desafios.</p>
+          <p>Sou uma pessoa dedicada, comprometida e proativa, com muita disposição para aprender e evoluir. Reconheço
+            que ainda tenho muito a desenvolver profissionalmente, mas estou disposto a receber orientações, enfrentar
+            novos desafios e me dedicar ao máximo para contribuir positivamente com a equipe e com os objetivos da
+            empresa.</p>
+          <p>Acredito que toda carreira começa com uma oportunidade e gostaria de ter a chance de demonstrar meu
+            potencial, minha capacidade de aprendizado e meu interesse genuíno em construir uma carreira sólida na área
+            de tecnologia.</p>
+          <p>Caso tenha a oportunidade de fazer parte da equipe, tenham certeza de que farei o meu melhor, com
+            dedicação, responsabilidade e gratidão pela confiança depositada em mim.</p>
+          <p><strong>Agradeço pela atenção e pela oportunidade de apresentar meu interesse.</strong></p>
+        </div>
+        <a class="button button-primary contact-cta"
+          href="https://wa.me/5511984134682?text=Oi%2C%20Encontrei%20o%20seu%20perfil%20no%20seu%20portf%C3%B3lio."
+          target="_blank" rel="noopener noreferrer">
+          Contato Whatsapp<span aria-hidden="true"></span>
+        </a>
+
+        </a>
+        <div class="contact-links">
+          <a href="https://github.com/Aguiar-Work" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/aguiarwork/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="mailto:AGUIAR.WORK@GMAIL.COM">E-mail ↗</a>
+          <a href="https://x.com/AguiarWork" target="_blank" rel="noreferrer">Twitter - X ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container"><a class="brand" href="#inicio"><span class="brand-mark">EA</span><span>Eduardo
+        Aguiar<span class="accent"></span></span></a>
+    <p>Desenvolvido por Eduardo Aguiar · <span id="currentYear"></span></p><a href="#inicio">Voltar ao topo ↑</a>
+  </footer>
+</body>
+
+</html>
