@@ -2,9 +2,20 @@ document.addEventListener("DOMContentLoaded", () => {
   const menuToggle = document.getElementById("menuToggle");
   const navLinks = document.getElementById("navLinks");
   const currentYear = document.getElementById("currentYear");
+  const presentationVideo = document.querySelector(".presentation-video");
+  const presentationStatus = document.querySelector(".presentation-status");
 
   // Atualiza o ano automaticamente no rodapé.
   if (currentYear) currentYear.textContent = new Date().getFullYear();
+
+  // Atualiza o status do vídeo sem interferir nos controles nativos.
+  if (presentationVideo && presentationStatus) {
+    const statusLabel = presentationStatus.querySelector(".presentation-status-label");
+    const updateStatus = (value) => { if (statusLabel) statusLabel.textContent = value; };
+    presentationVideo.addEventListener("play", () => updateStatus("PLAYING"));
+    presentationVideo.addEventListener("pause", () => { if (!presentationVideo.ended) updateStatus("PAUSED"); });
+    presentationVideo.addEventListener("ended", () => updateStatus("PLAYBACK_COMPLETE"));
+  }
 
   // Abre e fecha o menu em telas menores.
   if (menuToggle && navLinks) {
